@@ -8,6 +8,7 @@ body {
 }
 
 header {
+
     background: hsl(211, 100%, 73%);
     color: #000000;
     padding: 2rem;
@@ -15,7 +16,7 @@ header {
 }
 
 .profile-pic {
-    border-radius: 50%;
+    border-radius: 80%;
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -23,7 +24,7 @@ header {
 }
 
 .container {
-    width: 80%;
+width: 80%;
     margin: auto;
     padding: 1rem;
     background: #fff;
@@ -36,7 +37,7 @@ section {
 }
 
 h2 {
-    border-bottom: 2px solid #65b0ff;
+    border-bottom: 2px solid #80bdff;
     padding-bottom: 0.5rem;
 }
 
@@ -67,8 +68,7 @@ footer {
     background: #74b7ff;
     color: #fff;
     text-align: center;
-    padding: 1rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding:1rem;
+    position: static;
+    bottom: 0 ;
 }
