@@ -1,4 +1,4 @@
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
-    alert('Formulir berhasil dikirim! Terima kasih.');
+    alert('Pesan Berhasil Di Kirim Ke Zheta!! Terima kasih:D');
 });
