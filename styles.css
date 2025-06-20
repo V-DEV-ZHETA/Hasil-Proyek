@@ -391,3 +391,27 @@ body.night .bar4 { background-color: #da3633; }
   }
 }
 
+body {
+    font-size: 15px; /* lebih kecil agar muat */
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .project-item p,
+  .contact-details li {
+    font-size: 0.85rem;
+  }
+
+@media (max-width: 600px) {
+  .contact-box,
+  .contact-form {
+    min-width: unset;
+    width: 100%;
+  }
+}
